@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="First weekly webdev challenge.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>webdev challenge 1</title>
 
     <!-- Place favicon.ico in the root directory -->
@@ -21,16 +22,45 @@
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+  <div class="container">
+    <div class="form-container">
+      <h1>Register Form</h1>
+      <form class="form signup-form" action="">
+        <li class="li-input">
+          <label for="signup-username"><i class="fa fa-user fa-lg " aria-hidden="true"></i></label>
+          <input type="text" id="signup-username" name="signup-username" placeholder="    username">
+        </li>
+        <li class="li-input">
+          <label for="signup-password"><i class="fa fa-lock" aria-hidden="true"></i></label>
+          <input type="text" id="signup-password" name="signup-password" placeholder="    password">
+        </li>
+        <li class="li-input">
+          <label for="signup-confirm-password"><i class="fa fa-lock" aria-hidden="true"></i></label>
+          <input type="text" id="signup-confirm-password" name="signup-confirm-password" placeholder="    confirm password">
+        </li>
+        <li class="li-input">
+          <label for="signup-username"><i class="fa fa-envelope" aria-hidden="true"></i></label>
+          <input type="text" id="signup-username" name="signup-username" placeholder="    Email">
+        </li>
+        <li class="li-input">
+          <label for="signup-email"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
+          <input type="text" id="signup-location" name="signup-location" placeholder="    Your Location">
+        </li>
+        <li class="li-checkbox">
+          <input type="checkbox" id="signup-checkbox" name="signup-checkbox" value="signup-checkbox">
+          <label for="signup-checkbox">I have read and accept the terms of use</label>
+        </li>
+        <input type="submit" value="Sign up">
+      </form>
+    </div>
 
-    <main class="welcome">
-      <h1>Welcome to the future!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Babel for es6</li>
-        <li>PostCSS for cssnext</li>
-      </ul>
-    </main>
+
+
+
+
+
+  </div>
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
